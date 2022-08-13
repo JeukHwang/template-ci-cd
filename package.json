@@ -1,0 +1,24 @@
+{
+    "name": "template-ci-cd",
+    "version": "1.0.0",
+    "description": "Template for CI/CD",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc -p tsconfig.build.json",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JeukHwang/template-ci-cd.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JeukHwang/template-ci-cd/issues"
+    },
+    "homepage": "https://github.com/JeukHwang/template-ci-cd#readme",
+    "devDependencies": {
+        "typescript": "^4.7.4"
+    }
+}
