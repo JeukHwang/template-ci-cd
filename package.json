@@ -6,6 +6,8 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc -p tsconfig.build.json",
+        "lint": "npx eslint src/**/*.{js, ts, jsx, tsx}",
+        "format": "npx prettier --write src/**/*.{js, ts, jsx, tsx}",
         "test": "jest"
     },
     "repository": {
