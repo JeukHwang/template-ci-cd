@@ -6,7 +6,7 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc -p tsconfig.build.json",
-        "lint": "npx eslint \"src/index.ts\"",
+        "lint": "npx eslint \"src/index.ts\" --fix",
         "format": "npx prettier --write src/index.ts --check",
         "test": "jest"
     },
